@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 # Update sources and install git
 RUN apt-get update -y && apt-get install -y git python3-pip
