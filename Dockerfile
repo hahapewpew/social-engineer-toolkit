@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.10
 
 # Update sources and install git
 RUN apt-get update -y && apt-get install -y git python3-pip
